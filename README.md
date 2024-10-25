@@ -1,4 +1,19 @@
-# Cinema Booking API Challenge
+# AI Cinema challenge
+
+## What I asked
+I asked this
+
+```txt
+Can you help me make an application that uses Spring Boot, Spring Data JPA and Hibernate to build a RESTful API. It should work according to the spec I sent along. Assume I have a project that has no java, but everything else available
+```
+
+and got the code I have in the cinema folder. I had to handle imports and the updating of build.gradle.
+In the end, the code looks pretty good, but fairly basic, but however, I couldn't get it to work even with intervention due to the bug
+```txt
+java.lang.NoSuchFieldError: Class com.sun.tools.javac.tree.JCTree$JCImport does not have member field 'com.sun.tools.javac.tree.JCTree qualid'
+```
+that likely appeared due to the ai in the process of building, but I can't figure out why.
+
 
 ## Learning Objectives
 - Use Spring Boot, Spring Data JPA and Hibernate to build a RESTful API
